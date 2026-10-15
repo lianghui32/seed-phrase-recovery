@@ -4,10 +4,10 @@
   "description": "找回丢失/记错的 BIP-39 助记词：已知 11 词 + 钱包地址，穷举第 12 词并按 EVM 地址验证",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node test-vectors.js"
   },
   "dependencies": {
-    "bip39": "^3.1.0",
-    "ethereumjs-wallet": "^1.0.2"
+    "ethers": "^6.13.0"
   }
 }

@@ -21,3 +21,6 @@ jobs:
 
       - name: 语法检查
         run: node --check index.js
+
+      - name: 测试向量
+        run: npm test
